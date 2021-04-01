@@ -8,5 +8,8 @@ class Constants {
     companion object {
 
         val API_KEY = RecipeApplication.res.getString(R.string.api_key)
+
+        const val BASE_URL = "https://api.spoonacular.com/"
+        const val RECIPES_TABLE = "recipes_table"
     }
 }
